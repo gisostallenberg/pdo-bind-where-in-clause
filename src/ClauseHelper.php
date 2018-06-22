@@ -33,7 +33,7 @@ class ClauseHelper
         $resultArray = [];
         foreach (array_values($values) as $index => $value) {
             $name = sprintf(
-                '%s%s',
+                ':%s%s',
                 $prefix,
                 $index
             );
@@ -43,13 +43,7 @@ class ClauseHelper
 
         return sprintf(
             '(%s)',
-            implode(', ',
-                array_map(function($name) {
-                        return ':' . $name;
-                    },
-                    array_keys($resultArray)
-                )
-            )
+            implode(', ', array_keys($resultArray))
         );
     }
 }

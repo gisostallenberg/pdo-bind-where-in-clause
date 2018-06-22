@@ -45,9 +45,9 @@ class ClauseHelperTest extends TestCase
                 null,
                 '(:parameter0, :parameter1, :parameter2)',
                 [
-                    'parameter0' => 'a',
-                    'parameter1' => 'b',
-                    'parameter2' => 'c',
+                    ':parameter0' => 'a',
+                    ':parameter1' => 'b',
+                    ':parameter2' => 'c',
                 ],
 
             ],
@@ -60,9 +60,9 @@ class ClauseHelperTest extends TestCase
                 'id',
                 '(:id0, :id1, :id2)',
                 [
-                    'id0' => 153,
-                    'id1' => 158,
-                    'id2' => 186,
+                    ':id0' => 153,
+                    ':id1' => 158,
+                    ':id2' => 186,
                 ],
 
             ],
@@ -75,9 +75,9 @@ class ClauseHelperTest extends TestCase
                 'id',
                 '(:id0, :id1, :id2)',
                 [
-                    'id0' => 153,
-                    'id1' => 158,
-                    'id2' => 186,
+                    ':id0' => 153,
+                    ':id1' => 158,
+                    ':id2' => 186,
                 ],
 
             ]
