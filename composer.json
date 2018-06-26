@@ -1,6 +1,6 @@
 {
     "name": "gisostallenberg/pdo-clause-helper",
-    "description": "Utility to create palceholder strings to use in WHERE ... IN () clauses",
+    "description": "Utility to create placeholder strings to use in WHERE ... IN () clauses",
     "type": "library",
     "require": {
         "php": "^5.6 || ^7.0"
